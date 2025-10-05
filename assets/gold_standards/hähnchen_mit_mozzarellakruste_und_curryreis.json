@@ -1,0 +1,103 @@
+{
+  "name": "Hähnchen mit Mozzarellakruste und Curryreis",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Mozzarella (45 % Fett), abgetropft",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Tomaten, frisch",
+      "quantity": "800",
+      "unit": "g"
+    },
+    {
+      "name": "Pfeffer, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Hähnchenbrustfilet, frisch oder TK, aufgetaut",
+      "quantity": "1.8",
+      "unit": "kg"
+    },
+    {
+      "name": "Basilikum, getrocknet",
+      "quantity": "20",
+      "unit": "g"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Weizenmehl Type 550",
+      "quantity": "100",
+      "unit": "g"
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "70",
+      "unit": "ml"
+    },
+    {
+      "name": "Brokkoli, frisch oder TK",
+      "quantity": "2.2",
+      "unit": "kg"
+    },
+    {
+      "name": "Gemüsebrühe",
+      "quantity": "0.5",
+      "unit": "l"
+    },
+    {
+      "name": "Reis, parboiled, Rohware",
+      "quantity": "600",
+      "unit": "g"
+    },
+    {
+      "name": "Currypulver",
+      "quantity": "10",
+      "unit": "g"
+    },
+    {
+      "name": "Butter",
+      "quantity": "20",
+      "unit": "g"
+    },
+    {
+      "name": "Petersilie (frisch oder TK)",
+      "quantity": "30",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Hähnchenbrustfilets mit Salz und Pfeffer würzen, mehlieren.",
+        "Öl erhitzen und die Hähnchenbrustfilets darin anbraten.",
+        "Tomaten und Mozzarella in Scheiben schneiden und Hähnchen damit belegen.",
+        "Im Ofen überbacken.",
+        "Vor dem Servieren mit gehacktem Basilikum bestreuen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Reis mit Salz und Curry garen.",
+        "Mit Butter und gehackter Petersilie vermischen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Brokkoli in Röschen portionieren.",
+        "In Gemüsebrühe bissfest garen."
+      ]
+    }
+  ]
+}

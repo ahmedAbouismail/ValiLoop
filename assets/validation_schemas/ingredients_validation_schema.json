@@ -1,0 +1,59 @@
+{
+  "name": "IngredientsValidationSchema",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "error": {
+        "type": "array",
+        "description": "A list of actual errors that can be verified in the original text.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "error_type": {
+              "type": "string",
+              "description": "High-level category of the error.",
+              "enum": [
+                "omission",
+                "unsupported"
+              ]
+            },
+            "scope": {
+              "type": "string",
+              "description": "What the error applies to.",
+              "enum": [
+                "ingredient",
+                "quantity",
+                "unit"
+              ]
+            },
+            "field_path": {
+              "type": "string",
+              "description": "JSON path to the problematic element, e.g., 'ingredients[2].quantity'."
+            },
+            "message": {
+              "type": "string",
+              "description": "A description of the error based on the original text."
+            },
+            "recommended_fix": {
+              "type": "string",
+              "description": "A recommended fix for this specific error based on the original text."
+            }
+          },
+          "required": [
+            "error_type",
+            "scope",
+            "field_path",
+            "message",
+            "recommended_fix"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "error"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

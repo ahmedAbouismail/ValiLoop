@@ -1,0 +1,87 @@
+{
+  "name": "Erbsencremesuppe",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Erbsen, frisch oder TK",
+      "quantity": "7",
+      "unit": "kg"
+    },
+    {
+      "name": "Muskat, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Knoblauch, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Zwiebeln, frisch oder TK, geschält",
+      "quantity": "200",
+      "unit": "g"
+    },
+    {
+      "name": "Gemüsebrühe (Trockenprodukt)",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Milch (1,5 % Fett)",
+      "quantity": "1",
+      "unit": "l"
+    },
+    {
+      "name": "Margarine",
+      "quantity": "200",
+      "unit": "g"
+    },
+    {
+      "name": "Weizenmehl Type 405",
+      "quantity": "700",
+      "unit": "g"
+    },
+    {
+      "name": "Wasser / Trinkwasser",
+      "quantity": "14",
+      "unit": "l"
+    },
+    {
+      "name": "Suppengrün",
+      "quantity": "800",
+      "unit": "g"
+    },
+    {
+      "name": "Schlagsahne (30 % Fett)",
+      "quantity": "500",
+      "unit": "ml"
+    },
+    {
+      "name": "Pfeffer, gemahlen",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Zwiebeln, Suppengemüse und Knoblauch schneiden.",
+        "Margarine erhitzen, Zwiebelwürfel und Knoblauch darin andünsten.",
+        "Mit Mehl bestäuben, anschwitzen und unter Rühren mit Wasser ablöschen.",
+        "Gemüsebrühe einrühren.",
+        "Erbsen und Suppengemüse dazugeben.",
+        "Ca. 20 Minuten kochen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Milch und Sahne zugeben und mit einem Pürierstab fein pürieren.",
+        "Mit Salz, Pfeffer und Muskat abschmecken."
+      ]
+    }
+  ]
+}

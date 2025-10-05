@@ -1,0 +1,61 @@
+{
+  "name": "CompletenessValidationSchema",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "error": {
+        "type": "array",
+        "description": "A list of actual errors that can be verified in the original text.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "error_type": {
+              "type": "string",
+              "description": "High-level category of the error.",
+              "enum": [
+                "omission",
+                "hallucination"
+              ]
+            },
+            "scope": {
+              "type": "string",
+              "description": "What the error applies to.",
+              "enum": [
+                "name",
+                "portions",
+                "time",
+                "ingredients",
+                "cooking_steps"
+              ]
+            },
+            "field_path": {
+              "type": "string",
+              "description": "JSON, path to the problematic element, e.g., 'cooking_steps', 'time', 'portions'."
+            },
+            "message": {
+              "type": "string",
+              "description": "A description of the error based on the original text."
+            },
+            "recommended_fix": {
+              "type": "string",
+              "description": "A recommended fix for this specific error based on the original text."
+            }
+          },
+          "required": [
+            "error_type",
+            "scope",
+            "field_path",
+            "message",
+            "recommended_fix"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "error"
+    ],
+    "additionalProperties": false
+  },
+  "strict": true
+}

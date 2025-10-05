@@ -1,0 +1,97 @@
+{
+  "name": "Couscous-Salat",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Couscous",
+      "quantity": "650",
+      "unit": "g"
+    },
+    {
+      "name": "Gurke, frisch",
+      "quantity": "400",
+      "unit": "g"
+    },
+    {
+      "name": "Mais/Zuckermais, frisch oder TK",
+      "quantity": "600",
+      "unit": "g"
+    },
+    {
+      "name": "Paprika, rot, frisch oder TK",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Tomaten, frisch",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Fetakäse (45 % Fett i. Tr.)",
+      "quantity": "400",
+      "unit": "g"
+    },
+    {
+      "name": "Olivenöl",
+      "quantity": "40",
+      "unit": "ml"
+    },
+    {
+      "name": "Tomatenmark",
+      "quantity": "120",
+      "unit": "g"
+    },
+    {
+      "name": "Zitronensaft",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Paprikapulver, rosenscharf",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Cayennepfeffer",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Den Couscous in kochendes und leicht gesalzenes Wasser geben (Verhältnis 1:1).",
+        "Vom Herd nehmen und bis zu 10 Minuten abgedeckt ziehen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Das Gemüse waschen, in kleine Stücke schneiden, vermengen und mit Salz und Pfeffer würzen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Den Fetakäse klein schneiden.",
+        "Den Mais abtropfen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Den Couscous mit 4 EL Olivenöl vermischen.",
+        "Tomatenmark, Paprikapulver, Cayennepfeffer, Salz und Zitronensaft zugeben und erneut gut mischen.",
+        "Anschließend die restlichen Zutaten unterheben."
+      ]
+    }
+  ]
+}

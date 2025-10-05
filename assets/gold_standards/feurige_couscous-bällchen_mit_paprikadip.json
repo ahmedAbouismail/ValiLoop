@@ -1,0 +1,134 @@
+{
+  "name": "Feurige Couscous-Bällchen mit Paprikadip",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Kohlrabi, frisch oder TK",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Speisequark, mager (0,1 % Fett i. Tr.)",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Möhren, frisch oder TK",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Wasser/ Trinkwasser",
+      "quantity": "500",
+      "unit": "ml"
+    },
+    {
+      "name": "Instant-Couscous, Rohware",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Emmentaler (30 % i. Tr.)",
+      "quantity": "60",
+      "unit": "g"
+    },
+    {
+      "name": "Petersilie",
+      "quantity": "20",
+      "unit": "g"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Chilipulver",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Speisequark, mager (0,1 % Fett i. Tr.)",
+      "quantity": "150",
+      "unit": "g"
+    },
+    {
+      "name": "Fetakäse (45 % Fett i. Tr.)",
+      "quantity": "60",
+      "unit": "g"
+    },
+    {
+      "name": "Koriander, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Hüttenkäse (Viertelfettstufe)",
+      "quantity": "200",
+      "unit": "g"
+    },
+    {
+      "name": "Ajvar (Paprikamark) scharf",
+      "quantity": "100",
+      "unit": "g"
+    },
+    {
+      "name": "Zitronensaft",
+      "quantity": "5",
+      "unit": "ml"
+    },
+    {
+      "name": "Senf (mittelscharf)",
+      "quantity": "30",
+      "unit": "g"
+    },
+    {
+      "name": "Ahornsirup",
+      "quantity": "10",
+      "unit": "ml"
+    },
+    {
+      "name": "Petersilie",
+      "quantity": "10",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Couscous im Wasser 1 Stunde einweichen.",
+        "Aufkochen und bei geringer Hitze 10 Minuten ziehen lassen.",
+        "Weitere 10 Minuten quellen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Kohlrabi und Möhren raspeln."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Gemüseraspel, Quark, geriebenen Käse, Petersilie und Gewürze unter die Couscous-Masse heben.",
+        "Abschmecken und portionieren.",
+        "Bällchen in der Kühlung ziehen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Für den Dip: Quark mit Feta, Hüttenkäse und Ajvar verrühren.",
+        "Mit Gewürzen, Senf, Ahornsirup und Zitronensaft abschmecken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die gekühlten Couscous-Bällchen mit dem Dip anrichten."
+      ]
+    }
+  ]
+}

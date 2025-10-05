@@ -1,0 +1,147 @@
+{
+  "name": "Hamburger vegetarisch",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Gouda (40 % Fett i. Tr.)",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Brokkoli, frisch oder TK",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Erbsen, frisch oder TK",
+      "quantity": "350",
+      "unit": "g"
+    },
+    {
+      "name": "Kartoffeln, vorwiegend festkochend, frisch, geschält",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Ei(er)",
+      "quantity": "200",
+      "unit": "ml"
+    },
+    {
+      "name": "Weizenmehl Type 405",
+      "quantity": "150",
+      "unit": "g"
+    },
+    {
+      "name": "Paniermehl",
+      "quantity": "125",
+      "unit": "g"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Pfeffer, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Paprikapulver, edelsüß",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "80",
+      "unit": "ml"
+    },
+    {
+      "name": "Hamburgerbrötchen mit Sesam",
+      "quantity": "450",
+      "unit": "g"
+    },
+    {
+      "name": "Zwiebeln, frisch oder TK, geschält",
+      "quantity": "200",
+      "unit": "g"
+    },
+    {
+      "name": "Mayonnaise",
+      "quantity": "80",
+      "unit": "g"
+    },
+    {
+      "name": "Kopfsalat, frisch",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Tomaten, frisch",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Tomatenketchup",
+      "quantity": "200",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Kartoffeln und Gemüse garen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die gegarten Kartoffeln und das gegarte Gemüse abkühlen lassen und im Fleischwolf mit der groben Scheibe oder im Kutter stückig zerkleinern."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Ei, Mehl, Paniermehl und geriebenen Käse zugeben.",
+        "Mit Salz, Pfeffer, Paprikapulver würzen.",
+        "Alles zu einer homogenen Masse verarbeiten.",
+        "Anschließend pro Portion eine flache Gemüsefrikadelle formen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Öl in einer Pfanne erhitzen.",
+        "Die Frikadellen darin von beiden Seiten goldbraun braten."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Burgerbrötchen aufbacken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die untere Brötchenseite mit Mayonnaise bestreichen und mit Salatblättern und Tomatenscheiben belegen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die fertigen Gemüsefrikadellen darauf legen.",
+        "Die Frikadellen mit Zwiebelringen belegen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die obere Brötchenseite mit Ketchup bestreichen und auf den Burger legen."
+      ]
+    }
+  ]
+}

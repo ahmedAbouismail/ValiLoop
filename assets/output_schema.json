@@ -1,0 +1,91 @@
+{
+  "name": "recipe",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "nullable": true,
+        "description": "Title of the recipe"
+      },
+      "portions": {
+        "type": "integer",
+        "nullable": true,
+        "description": "Number of portions"
+      },
+      "time": {
+        "type": "integer",
+        "nullable": true,
+        "description": "How long does the recipe take in total in seconds?"
+      },
+      "ingredients": {
+        "type": "array",
+        "nullable": true,
+        "description": "Ingredients for the recipe",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "nullable": true,
+              "description": "Name of the ingredient"
+            },
+            "quantity": {
+              "type": "string",
+              "nullable": true,
+              "description": "Quantity of the ingredient"
+            },
+            "unit": {
+              "type": "string",
+              "nullable": true,
+              "description": "Unit of the quantity"
+            }
+          },
+          "required": [
+            "name",
+            "quantity",
+            "unit"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "cooking_steps": {
+        "type": "array",
+        "nullable": true,
+        "description": "Cooking steps for the recipe",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "nullable": true,
+              "description": "Title of the cooking step. If not specified set null to this field"
+            },
+            "sub_steps": {
+              "type": "array",
+              "nullable": true,
+              "description": "The cooking step",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "title",
+            "sub_steps"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "name",
+      "portions",
+      "time",
+      "ingredients",
+      "cooking_steps"
+    ],
+    "additionalProperties": false
+  }
+}

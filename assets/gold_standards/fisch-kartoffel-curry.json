@@ -1,0 +1,129 @@
+{
+  "name": "Fisch-Kartoffel-Curry",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Kerbel, frisch",
+      "quantity": "100",
+      "unit": "g"
+    },
+    {
+      "name": "Seelachsfilet, frisch oder TK, roh",
+      "quantity": "12",
+      "unit": "kg"
+    },
+    {
+      "name": "Knoblauch, frisch oder TK",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Möhren, frisch oder TK",
+      "quantity": "8",
+      "unit": "kg"
+    },
+    {
+      "name": "Zwiebeln, frisch oder TK, geschält",
+      "quantity": "4",
+      "unit": "kg"
+    },
+    {
+      "name": "Kartoffeln, vorwiegend festkochend, frisch, geschält",
+      "quantity": "20",
+      "unit": "kg"
+    },
+    {
+      "name": "Kürbis, frisch",
+      "quantity": "8",
+      "unit": "kg"
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "500",
+      "unit": "ml"
+    },
+    {
+      "name": "Currypulver",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Gemüsebrühe",
+      "quantity": "8",
+      "unit": "l"
+    },
+    {
+      "name": "Kokosmilch",
+      "quantity": "8",
+      "unit": "l"
+    },
+    {
+      "name": "Zitronensaft",
+      "quantity": "500",
+      "unit": "ml"
+    },
+    {
+      "name": "Pfeffer, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Cayennepfeffer",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Maisstärke",
+      "quantity": "100",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Kartoffeln, Kürbis und Möhren in ca. 2 cm große Würfel schneiden.",
+        "Die Zwiebeln in Scheiben schneiden, Knoblauch fein hacken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Öl in einer Pfanne erhitzen und das Gemüse sowie Knoblauch darin anbraten.",
+        "Mit Currypulver bestäuben, kurz weiterbraten und dann mit Brühe und Kokosmilch aufgießen.",
+        "Bei geschlossenem Deckel ca. 10 bis 15 Minuten garen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Abschmecken mit Salz, Pfeffer, Curry, Chilli und Zitronensaft."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Seelachsfilets säubern, säuern, salzen und in ca. 2 cm große Würfel schneiden.",
+        "Zum Gemüse geben, vorsichtig unterheben und ca. 5 Minuten garziehen lassen (nicht kochen, da sonst der Fisch zerfällt)."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Falls das Curry zu dünnflüssig ist, Stärke mit kaltem Wasser anrühren und das Fisch-Curry damit abbinden."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Mit gehacktem Kerbel bestreut servieren."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Backerbsensuppe",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Muskat, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Petersilie, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Gemüsebrühe (Trockenprodukt)",
+      "quantity": "1",
+      "unit": "kg"
+    },
+    {
+      "name": "Wasser/ Trinkwasser",
+      "quantity": "2",
+      "unit": "l"
+    },
+    {
+      "name": "Suppengrün",
+      "quantity": "2",
+      "unit": "kg"
+    },
+    {
+      "name": "Pfeffer, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Backerbsen",
+      "quantity": "200",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Suppengemüse schälen bzw. waschen und zu Julienne oder Würfel schneiden."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Wasser zum Kochen bringen, Gemüsebrühe einrühren.",
+        "Suppengemüse dazu geben und mitgaren.",
+        "Mit Salz, Pfeffer und Muskat abschmecken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Suppe mit Backerbsen und gehackter Petersilie servieren."
+      ]
+    }
+  ]
+}

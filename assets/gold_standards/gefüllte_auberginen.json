@@ -1,0 +1,117 @@
+{
+  "name": "Gefüllte Auberginen",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Bulgur",
+      "quantity": "330",
+      "unit": "g"
+    },
+    {
+      "name": "Auberginen",
+      "quantity": "2500",
+      "unit": "g"
+    },
+    {
+      "name": "Zwiebeln, frisch oder TK, geschält",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Knoblauch, frisch",
+      "quantity": "3",
+      "unit": "Zehen"
+    },
+    {
+      "name": "Chilipulver",
+      "quantity": "1",
+      "unit": "Msp."
+    },
+    {
+      "name": "Petersilie, frisch",
+      "quantity": "9",
+      "unit": "Stiele"
+    },
+    {
+      "name": "Paprika (rot, frisch oder TK)",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Tomaten",
+      "quantity": "800",
+      "unit": "g"
+    },
+    {
+      "name": "Tomatenmark",
+      "quantity": "120",
+      "unit": "g"
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "30",
+      "unit": "ml"
+    },
+    {
+      "name": "Minze, getrocknet",
+      "quantity": "4",
+      "unit": "TL"
+    },
+    {
+      "name": "Kichererbsen, getrocknet",
+      "quantity": "660",
+      "unit": "g"
+    },
+    {
+      "name": "Wasser",
+      "quantity": "1200",
+      "unit": "ml"
+    },
+    {
+      "name": "Jodsalz, Pfeffer",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Kichererbsen über Nacht einweichen.",
+        "Den Bulgur für ca. 15 Minuten in kaltem Wasser einweichen.",
+        "Das obere Drittel der Aubergine abschneiden und den Deckel für später aufbewahren.",
+        "Mit einem Löffel die Aubergine vorsichtig aushöhlen, dabei einen 1 cm dicken Rand lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Zwiebeln, den Knoblauch und die Petersilie fein hacken.",
+        "Die Paprika in ca. 1 cm große Würfel schneiden.",
+        "Die Tomaten ebenfalls fein würfeln.",
+        "Die Kichererbsen abtropfen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Zwei Esslöffel Öl in einer Pfanne erhitzen.",
+        "Zwiebeln und Paprikawürfel etwa sieben Minuten anschwitzen.",
+        "Die Pfanne vom Herd nehmen und die Hälfte der gewürfelten Tomaten, die Kichererbsen, die Petersilie, den Knoblauch und den abgetropften Bulgur unterrühren.",
+        "Mit Salz, Pfeffer und Chilipulver nach Geschmack würzen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Füllung in die Auberginen geben und die abgetrennten Hauben auf die Auberginen setzen.",
+        "Die Auberginen aufrecht in einen Topf stellen.",
+        "Das Wasser mit den restlichen gestückelten Tomaten, dem Tomatenmark, dem gehackten Knoblauch und der Minze verquirlen.",
+        "Die Flüssigkeit zu den Auberginen in den Topf geben, so dass diese bedeckt sind.",
+        "Die Auberginen mit einem kleinen Teller beschweren, damit sie nicht an die Oberfläche schwimmen.",
+        "Ca. 30-40 Minuten bei mittlerer Hitze köcheln lassen."
+      ]
+    }
+  ]
+}

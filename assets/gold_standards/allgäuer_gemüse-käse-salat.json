@@ -1,0 +1,121 @@
+{
+  "name": "Allgäuer Gemüse-Käse-Salat",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Emmentaler (40 % Fett i. Tr.)",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Paprika, gelb, frisch oder TK",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Mais/Zuckermais, frisch oder TK",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Basilikum, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Erbsen, frisch oder TK",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Schnittlauch, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Möhren, frisch oder TK",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Petersilie, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Paprika, rot, frisch oder TK",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Pfeffer, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Essig",
+      "quantity": "125",
+      "unit": "ml"
+    },
+    {
+      "name": "Wasser / Trinkwasser",
+      "quantity": "125",
+      "unit": "ml"
+    },
+    {
+      "name": "Paprikapulver, edelsüß",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Zucker",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "30",
+      "unit": "ml"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Das Gemüse in Würfel schneiden und miteinander vermischen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Aus Essig, Wasser, Salz, Pfeffer, Paprikapulver und Zucker ein Dressing herstellen.",
+        "Das Öl mit einem Schneebesen unterschlagen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Das Gemüse mit dem Dressing mischen und etwas durchziehen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Den Käse in Würfel schneiden."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Kurz vor dem Servieren den Käse und Schnittlauchröllchen unter das Gemüse mischen.",
+        "Mit gehackter Petersilie bestreut servieren."
+      ]
+    }
+  ]
+}

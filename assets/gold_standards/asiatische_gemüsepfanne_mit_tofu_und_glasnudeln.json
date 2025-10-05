@@ -1,0 +1,135 @@
+{
+  "name": "Asiatische Gemüsepfanne mit Tofu und Glasnudeln",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Tofu",
+      "quantity": "8,5",
+      "unit": "kg"
+    },
+    {
+      "name": "Frühlings-/Lauchzwiebeln, frisch",
+      "quantity": "3",
+      "unit": "kg"
+    },
+    {
+      "name": "Tomatenmark",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Sojasoße, dunkel",
+      "quantity": "1500",
+      "unit": "ml"
+    },
+    {
+      "name": "Zuckererbsenschoten, frisch oder TK",
+      "quantity": "4",
+      "unit": "kg"
+    },
+    {
+      "name": "Champignons, frisch oder TK",
+      "quantity": "4",
+      "unit": "kg"
+    },
+    {
+      "name": "Möhren, frisch oder TK",
+      "quantity": "4",
+      "unit": "kg"
+    },
+    {
+      "name": "Sojasprossen, frisch",
+      "quantity": "4",
+      "unit": "kg"
+    },
+    {
+      "name": "Paprika rot, frisch oder TK",
+      "quantity": "4",
+      "unit": "kg"
+    },
+    {
+      "name": "Gemüsebrühe",
+      "quantity": "10",
+      "unit": "l"
+    },
+    {
+      "name": "Glasnudeln, Rohware",
+      "quantity": "6",
+      "unit": "kg"
+    },
+    {
+      "name": "Maisstärke",
+      "quantity": "200",
+      "unit": "g"
+    },
+    {
+      "name": "Zucker",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "100",
+      "unit": "ml"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Cayennepfeffer",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Zwei Stunden vor der Zubereitung den Tofu marinieren.",
+        "Frühlingszwiebeln in Ringe schneiden und mit Sojasoße und Tomatenmark vermischen.",
+        "Tofu in die Marinade einlegen und gekühlt durchziehen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Für die Gemüsepfanne das Gemüse in mundgerechte Stücke schneiden.",
+        "Rapsöl in einer Pfanne erhitzen und das Gemüse darin anbraten.",
+        "Mit der Gemüsebrühe aufgießen und bissfest garen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Öl in einer weiteren Pfanne erhitzen.",
+        "Tofu aus der Marinade nehmen und bei mittlerer Hitze von beiden Seiten anbraten."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die übrige Marinade über das gegarte Gemüse geben.",
+        "Stärke mit etwas kaltem Wasser anrühren.",
+        "Die Soße aufkochen lassen und mit der Stärke binden.",
+        "Mit Zucker, Salz und Cayennepfeffer abschmecken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Glasnudeln einige Minuten in kaltem Wasser einweichen.",
+        "Einen Topf mit leicht gesalzenem Wasser erhitzen.",
+        "Glasnudeln 1 Minute darin garziehen lassen, abgießen und unter das Gemüse heben."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die gebratenen Tofuscheiben auf dem Gemüse mit Glasnudeln servieren."
+      ]
+    }
+  ]
+}

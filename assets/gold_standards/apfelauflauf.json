@@ -1,0 +1,88 @@
+{
+  "name": "Apfelauflauf",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Haselnüsse, gehackt",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Apfel, frisch",
+      "quantity": "1100",
+      "unit": "g"
+    },
+    {
+      "name": "Zitronensaft",
+      "quantity": "50",
+      "unit": "ml"
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "12",
+      "unit": "ml"
+    },
+    {
+      "name": "Ei(er)",
+      "quantity": "5",
+      "unit": null
+    },
+    {
+      "name": "Zucker",
+      "quantity": "60",
+      "unit": "g"
+    },
+    {
+      "name": "Weizenmehl Type 405",
+      "quantity": "180",
+      "unit": "g"
+    },
+    {
+      "name": "Backpulver",
+      "quantity": "10",
+      "unit": "g"
+    },
+    {
+      "name": "Zimtpulver",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Gehackte Haselnüsse in einer Pfanne ohne Fett leicht anrösten, danach abkühlen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Äpfel putzen, in Scheiben schneiden und mit Zitronensaft beträufeln.",
+        "Die küchenfertige Menge Äpfel soll 100 g pro Portion betragen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Eine Auflaufform mit dem Öl fetten.",
+        "Die Apfelscheiben in die Form legen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Eier mit dem Zucker schaumig schlagen.",
+        "Mehl mit Backpulver und Zimt mischen und unter die Eiermasse heben.",
+        "Die Masse auf die Apfelscheiben geben und verteilen, mit gehackten Haselnüssen bestreuen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Den Auflauf bei 180°C etwa 30 Minuten im Backofen garen."
+      ]
+    }
+  ]
+}

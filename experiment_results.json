@@ -1,0 +1,29 @@
+{
+  "session_id": "09db3daf-56af-4455-ab61-a43439ed67b6",
+  "export_timestamp": "2025-10-04T10:11:19.738945",
+  "raw_text_length": 2086,
+  "modes": {
+    "AUTOMATIC": {
+      "input_tokens": 12821,
+      "output_tokens": 35564,
+      "total_cost": 0.01486665,
+      "iterations": 2,
+      "transform_time": 87.95246005058289,
+      "validation_time": 103.11896753311157,
+      "quality_score": 0.9,
+      "errors": "error_type: omission; field_path: portions; error_message: Im Originaltext steht 'Ausgabemenge pro Person: ca. 600 g'. Die extrahierte JSON setzt 'portions' auf 1, was die Per-Person-Menge nicht widerspiegelt.",
+      "total_time": 191.07142758369446
+    },
+    "HUMAN": {
+      "input_tokens": 2104,
+      "output_tokens": 13552,
+      "total_cost": 0.0055260000000000005,
+      "iterations": 2,
+      "transform_time": 63.439677000045776,
+      "feedback_time": 42.103245973587036,
+      "quality_score": 0.7914285714285715,
+      "errors": "",
+      "total_time": 105.54292297363281
+    }
+  }
+}

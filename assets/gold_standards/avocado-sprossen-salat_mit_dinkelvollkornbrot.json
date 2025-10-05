@@ -1,0 +1,110 @@
+{
+  "name": "Avocado-Sprossen-Salat mit Dinkelvollkornbrot",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Radicchiosalat",
+      "quantity": "100",
+      "unit": "g"
+    },
+    {
+      "name": "Spinat, frisch",
+      "quantity": "200",
+      "unit": "g"
+    },
+    {
+      "name": "Avocado, geputzt",
+      "quantity": "150",
+      "unit": "g"
+    },
+    {
+      "name": "Frühlings-/Lauchzwiebeln, frisch",
+      "quantity": "150",
+      "unit": "g"
+    },
+    {
+      "name": "Kresse, frisch",
+      "quantity": "10",
+      "unit": "g"
+    },
+    {
+      "name": "Eisbergsalat, frisch",
+      "quantity": "350",
+      "unit": "g"
+    },
+    {
+      "name": "Currypulver",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Buttermilch",
+      "quantity": "150",
+      "unit": "ml"
+    },
+    {
+      "name": "Zucker",
+      "quantity": "10",
+      "unit": "g"
+    },
+    {
+      "name": "Apfelessig",
+      "quantity": "60",
+      "unit": "ml"
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "20",
+      "unit": "ml"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Sprossen gemischt",
+      "quantity": "150",
+      "unit": "g"
+    },
+    {
+      "name": "Apfel, frisch",
+      "quantity": "200",
+      "unit": "g"
+    },
+    {
+      "name": "Dinkelvollkornbrot",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Pfeffer, gemahlen",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Für das Dressing: Kefir, Zucker, Essig, Salz, Pfeffer und Curry verrühren."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Avocado und Äpfel in Würfel, Lauchzwiebel in Ringe schneiden.",
+        "Blattsalate zurechtzupfen oder in Streifen schneiden.",
+        "Mit Sprossen, Avocado- und Apfelwürfeln, Lauchzwiebelringen und Dressing vermengen.",
+        "Abschmecken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Den Salat mit Dinkelbrötchenscheiben anrichten."
+      ]
+    }
+  ]
+}

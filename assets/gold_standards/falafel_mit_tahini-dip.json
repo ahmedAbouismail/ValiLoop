@@ -1,0 +1,138 @@
+{
+  "name": "Falafel mit Tahini-Dip",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Kichererbsen, getrocknet",
+      "quantity": "1000",
+      "unit": "g"
+    },
+    {
+      "name": "Zwiebeln, frisch oder TK, geschält",
+      "quantity": "120",
+      "unit": "g"
+    },
+    {
+      "name": "Knoblauch, frisch",
+      "quantity": "4",
+      "unit": "Zehen"
+    },
+    {
+      "name": "Petersilie, frisch oder TK",
+      "quantity": "9",
+      "unit": "Stiele"
+    },
+    {
+      "name": "Chilipulver",
+      "quantity": "2",
+      "unit": "Msp."
+    },
+    {
+      "name": "Schwarzkümmel, gemahlen",
+      "quantity": "2",
+      "unit": "TL"
+    },
+    {
+      "name": "Koriander, getrocknet",
+      "quantity": "2",
+      "unit": "TL"
+    },
+    {
+      "name": "Natron",
+      "quantity": "2",
+      "unit": "TL"
+    },
+    {
+      "name": "Backpulver",
+      "quantity": "2",
+      "unit": "TL"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Pfeffer",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Tahini (aus rohem Sesam)",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Joghurt (1,5 % Fett)",
+      "quantity": "400",
+      "unit": "g"
+    },
+    {
+      "name": "Knoblauch, frisch",
+      "quantity": "1",
+      "unit": "Zehe"
+    },
+    {
+      "name": "Zitronensaft",
+      "quantity": "120",
+      "unit": "ml"
+    },
+    {
+      "name": "Petersilie, frisch oder TK",
+      "quantity": "6",
+      "unit": "EL"
+    },
+    {
+      "name": "Cayennepfeffer",
+      "quantity": "2",
+      "unit": "Msp."
+    },
+    {
+      "name": "Paprikapulver",
+      "quantity": "2",
+      "unit": "Msp."
+    },
+    {
+      "name": "Kreuzkümmel, gemahlen",
+      "quantity": "1",
+      "unit": "Prise"
+    },
+    {
+      "name": "Granatapfelsirup",
+      "quantity": "20",
+      "unit": "ml"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Kichererbsen über Nacht einweichen.",
+        "Am nächsten Tag Zwiebeln und Knoblauch fein würfeln.",
+        "Mit abgetropften Kichererbsen vermischen.",
+        "Gehackte Petersilie, Gewürze, Salz, Natron und Backpulver hinzufügen.",
+        "Mit der Küchenmaschine fein pürieren.",
+        "Mit Pfeffer abschmecken und Bällchen formen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Falafel im Ofen bei 160°C für 20 Minuten backen.",
+        "Alternativ in Pfanne oder Fritteuse in Rapsöl 5–8 Minuten frittieren.",
+        "Auf Küchenpapier abtropfen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Tahini mit Zitronensaft sämig rühren.",
+        "Joghurt zugeben.",
+        "Knoblauch fein hacken und mit Kräutern untermischen.",
+        "Mit Salz und Granatapfelsirup abschmecken.",
+        "Mit gehackter Petersilie bestreuen."
+      ]
+    }
+  ]
+}
