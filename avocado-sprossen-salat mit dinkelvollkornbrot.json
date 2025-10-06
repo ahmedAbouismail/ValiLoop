@@ -1,0 +1,29 @@
+{
+  "session_id": "f0bbbc31-38ba-4ed1-bec7-77cc67def9d3",
+  "export_timestamp": "2025-10-06T18:25:38.059266",
+  "raw_text_length": 906,
+  "modes": {
+    "AUTOMATIC": {
+      "input_tokens": 16056,
+      "output_tokens": 63084,
+      "total_cost": 0.0260364,
+      "iterations": 3,
+      "transform_time": 198.9158570766449,
+      "validation_time": 257.08933687210083,
+      "quality_score": ";0.7666666666666666;0.6616666666666666;0.6616666666666666",
+      "errors": "error_type: unsupported; field_path: ingredients[13].name; error_message: Originaltext verwendet 'Keimlinge', EXTRAKTION verwendet 'Keimlinge'.error_type: unsupported; field_path: ingredients[7].quantity; error_message: Im ORIGINALTEXT wird Kefir ohne Mengenangabe genannt ('Für das Dressing: Kefir, Zucker, Essig, Salz, Pfeffer und Curry verrühren.').error_type: omission; field_path: ingredients; error_message: Im ORIGINALTEXT ist Brötchen: ca. 50 g genannt, fehlt in der EXTRAKTION.error_type: omission; field_path: portions; error_message: Im Originaltext wird keine Gesamt-Portionszahl explizit angegeben (nur Ausgabemengen pro Person). Die Extraktion setzt 'portions' auf 10.error_type: hallucination; field_path: ingredients[7].name; error_message: In der Originalfassung wird als Dressing-Zutat 'Buttermilch' verwendet, die Extraktion listet jedoch 'Kefir'.error_type: hallucination; field_path: ingredients[13].name; error_message: Keimlinge ist in der Originalliste nicht aufgeführt; wurde aber in der Extraktion als eigene Zutat aufgenommen.error_type: hallucination; field_path: time; error_message: Die Originalangaben enthalten keine Kochzeit; Die Extraktion gibt 'time' als 0 an.",
+      "total_time": 456.0051939487457
+    },
+    "HUMAN": {
+      "input_tokens": 755,
+      "output_tokens": 5742,
+      "total_cost": 0.00233455,
+      "iterations": 1,
+      "transform_time": 31.350669860839844,
+      "feedback_time": 16.033770084381104,
+      "quality_score": ";0.7666666666666666",
+      "errors": "",
+      "total_time": 47.38443994522095
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Gebackene Banane mit Honig",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Milch (1,5 % Fett)",
+      "quantity": "300",
+      "unit": "ml"
+    },
+    {
+      "name": "Weizenmehl Type 405",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Vanillezucker",
+      "quantity": "20",
+      "unit": "g"
+    },
+    {
+      "name": "Backpulver",
+      "quantity": "10",
+      "unit": "g"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Ei(er)",
+      "quantity": "150",
+      "unit": "ml"
+    },
+    {
+      "name": "Honig",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Sesamsamen",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Banane, frisch, geschält",
+      "quantity": "1000",
+      "unit": "g"
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "60",
+      "unit": "ml"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Für den Teig das Mehl, Vanillezucker, Backpulver, Salz, Ei und Milch sowie ca. 2/3 des Sesams verrühren.",
+        "Ca. 15 Minuten quellen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Bananen in ca. 3 cm lange Stücke schneiden."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Das Öl in einer Pfanne erhitzen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Bananenstücke im Teig wenden, abtropfen lassen und im Öl hellbraun ausbacken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Auf einem Küchenpapier abtropfen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die gebackene Banane portionieren, mit Honig beträufeln und mit dem verbliebenen Sesam bestreuen."
+      ]
+    }
+  ]
+}
+

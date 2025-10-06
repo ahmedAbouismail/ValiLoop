@@ -10,11 +10,11 @@ Menge	Zutat
 1100 g	Apfel, frisch
 50 ml	Zitronensaft
 12 ml	Rapsöl
-5	    Ei(er)
+5	Ei(er)
 60 g	Zucker
 180 g	Weizenmehl Type 405
 10 g	Backpulver
-	    Zimtpulver
+	Zimtpulver
 
 Zubereitung
 1. Gehackte Haselnüsse in einer Pfanne ohne Fett leicht anrösten, danach abkühlen lassen.

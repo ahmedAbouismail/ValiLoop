@@ -1,0 +1,99 @@
+{
+  "name": "Lammbraten, Rosenkohl und Kräuterkartoffeln",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Rosenkohl, frisch oder TK",
+      "quantity": "1.8",
+      "unit": "kg"
+    },
+    {
+      "name": "Kerbel, frisch",
+      "quantity": "20",
+      "unit": "g"
+    },
+    {
+      "name": "Apfel, frisch",
+      "quantity": "1",
+      "unit": "kg"
+    },
+    {
+      "name": "Rosmarin, frisch oder getrocknet",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Zwiebeln, frisch oder TK, geschält",
+      "quantity": "1",
+      "unit": "kg"
+    },
+    {
+      "name": "Lammfleisch ohne Knochen (z. B. aus der Keule), roh",
+      "quantity": "1.6",
+      "unit": "kg"
+    },
+    {
+      "name": "Kartoffeln, vorwiegend festkochend, frisch, geschält",
+      "quantity": "2.2",
+      "unit": "kg"
+    },
+    {
+      "name": "Pfeffer, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "80",
+      "unit": "ml"
+    },
+    {
+      "name": "Maisstärke",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Bratenfond",
+      "quantity": "1",
+      "unit": "l"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Äpfel schälen.",
+        "Äpfel und Zwiebeln würfeln."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Für das Fleisch das Lammfleisch parieren und würzen und in Öl scharf anbraten.",
+        "Die Hälfte der Zwiebelwürfel und die geschälten Apfelstücke zugeben, anrösten und mit Bratenfond ablöschen und garen.",
+        "Anschließend Sauce pürieren und abbinden."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Für das Gemüse restliche Zwiebelwürfel im restlichen Öl andünsten.",
+        "Aufgetauten Rosenkohl zugeben, würzen und bissfest garen.",
+        "Schmand zugeben."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Kartoffeln dämpfen.",
+        "Mit gehacktem Kerbel bestreuen."
+      ]
+    }
+  ]
+}

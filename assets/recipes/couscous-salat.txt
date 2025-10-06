@@ -15,10 +15,10 @@ Menge	Zutat
 400 g	Fetakäse (45 % Fett i. Tr.)
 40 ml	Olivenöl
 120 g	Tomatenmark
-	    Zitronensaft
-	    Jodsalz
-	    Paprikapulver, rosenscharf
-	    Cayennepfeffer
+	Zitronensaft
+	Jodsalz
+	Paprikapulver, rosenscharf
+	Cayennepfeffer
 
 Zubereitung
 1. Den Couscous in kochendes und leicht gesalzenes Wasser geben (Verhältnis 1:1), vom Herd nehmen und bis zu 10 Minuten abgedeckt ziehen lassen.

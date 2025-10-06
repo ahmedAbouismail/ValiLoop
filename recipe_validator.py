@@ -19,7 +19,6 @@ class LLMRecipeValidator(DomainValidator):
         self.llm = ChatOpenAI(
             model="gpt-5-nano",
             temperature=0.0,
-            api_key="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"
         )
         self.last_validation_cost = 0  # Für Monitoring
 
@@ -348,40 +347,6 @@ class LLMRecipeValidator(DomainValidator):
 
         return None
 
-    # def _score_ingredients(self, gold_ingredients: list, current_ingredients: list) -> float:
-    #     if not gold_ingredients:
-    #         return 1.0 if not current_ingredients else 0.0
-    #
-    #     if not current_ingredients:
-    #         return 0.0
-    #
-    #     # Liste der bereits verwendeten Indizes
-    #     used_indices = set()
-    #     correct_count = 0
-    #
-    #     # Für jede Gold-Zutat finde beste Übereinstimmung
-    #     for gold_ingredient in gold_ingredients:
-    #         best_match_found = False
-    #
-    #         # Suche in allen noch nicht verwendeten aktuellen Zutaten
-    #         for i, current_ingredient in enumerate(current_ingredients):
-    #             if i not in used_indices:  # Nur unverwendete prüfen
-    #                 if self._ingredients_match(gold_ingredient, current_ingredient):
-    #                     correct_count += 1
-    #                     used_indices.add(i)  # Markiere als verwendet
-    #                     best_match_found = True
-    #                     break  # Stoppe bei erstem Match
-    #
-    #     # Score: gefundene Matches / erwartete Zutaten
-    #     base_score = correct_count / len(gold_ingredients)
-    #
-    #     # Strafe für zusätzliche Zutaten (nicht gematcht)
-    #     extra_ingredients = len(current_ingredients) - len(used_indices)
-    #     if extra_ingredients > 0:
-    #         penalty = extra_ingredients * 0.1
-    #         base_score = max(0.0, base_score - penalty)
-    #
-    #     return base_score
     def _score_cooking_steps(self, gold_steps: list, current_steps: list) -> float:
         if not gold_steps:
             return 1.0 if not current_steps else 0.0
@@ -447,32 +412,6 @@ class LLMRecipeValidator(DomainValidator):
         similarity = SequenceMatcher(None, gold_text.strip(), current_text.strip()).ratio()
         return similarity > 0.8  # 80% Ähnlichkeit
 
-    # def _score_cooking_steps(self, gold_steps: list, current_steps: list) -> float:
-    #     if not gold_steps:
-    #         return 1.0 if not current_steps else 0.0
-    #
-    #     if not current_steps:
-    #         return 0.0
-    #
-    #     used_indices = set()
-    #     correct_count = 0
-    #
-    #     # Für jeden Gold-Schritt finde besten Match
-    #     for gold_step in gold_steps:
-    #         for i, current_step in enumerate(current_steps):
-    #             if i not in used_indices:
-    #                 if self._steps_match(gold_step, current_step):
-    #                     correct_count += 1
-    #                     used_indices.add(i)
-    #                     break
-    #
-    #     return correct_count / len(gold_steps)
-    #
-    # def _steps_match(self, gold_step: str, current_step: str) -> bool:
-    #
-    #     similarity = SequenceMatcher(None, gold_step.lower(), current_step.lower()).ratio()
-    #     return similarity > 0.8  # 80% Ähnlichkeit
-
     def _score_ingredients(self, gold_ingredients: list, current_ingredients: list) -> float:
         if not gold_ingredients:
             return 1.0 if not current_ingredients else 0.0
@@ -532,25 +471,3 @@ class LLMRecipeValidator(DomainValidator):
             return False
 
         return True
-    # def _ingredients_match(self, gold_ingredient: dict, current_ingredient: dict) -> bool:
-    #     if not isinstance(gold_ingredient, dict) or not isinstance(current_ingredient, dict):
-    #         return False
-    #
-    #     # Name muss übereinstimmen (wichtigster Teil)
-    #     if gold_ingredient.get('name', '').lower() != current_ingredient.get('name', '').lower():
-    #         return False
-    #
-    #     # Quantity und Unit sind optional, aber wenn vorhanden sollten sie stimmen
-    #     gold_qty = gold_ingredient.get('quantity')
-    #     current_qty = current_ingredient.get('quantity')
-    #
-    #     if gold_qty and current_qty and gold_qty != current_qty:
-    #         return False
-    #
-    #     gold_unit = gold_ingredient.get('unit')
-    #     current_unit = current_ingredient.get('unit')
-    #
-    #     if gold_unit and current_unit and gold_unit != current_unit:
-    #         return False
-    #
-    #     return True

@@ -15,9 +15,9 @@ Menge	Zutat
 200 ml	Ei(er)
 150 g	Weizenmehl Type 405
 125 g	Paniermehl
-	    Jodsalz
-	    Pfeffer, gemahlen
-	    Paprikapulver, edelsüß
+	Jodsalz
+	Pfeffer, gemahlen
+	Paprikapulver, edelsüß
 80 ml	Rapsöl
 
 Hamburgerbrötchen

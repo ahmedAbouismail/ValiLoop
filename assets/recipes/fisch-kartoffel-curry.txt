@@ -17,12 +17,12 @@ Menge	Zutat
 8 kg	Kürbis, frisch
 500 ml	Rapsöl
 50 g	Currypulver
-8 l	    Gemüsebrühe
-8 l	    Kokosmilch
+8 l	Gemüsebrühe
+8 l	Kokosmilch
 500 ml	Zitronensaft
-	    Pfeffer, gemahlen
-	    Cayennepfeffer
-	    Jodsalz
+	Pfeffer, gemahlen
+	Cayennepfeffer
+	Jodsalz
 100 g	Maisstärke
 
 

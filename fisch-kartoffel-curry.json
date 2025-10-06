@@ -1,0 +1,29 @@
+{
+  "session_id": "78f1c038-8aad-4988-924c-29f385802922",
+  "export_timestamp": "2025-10-06T18:17:14.642618",
+  "raw_text_length": 1391,
+  "modes": {
+    "AUTOMATIC": {
+      "input_tokens": 18934,
+      "output_tokens": 47399,
+      "total_cost": 0.0199063,
+      "iterations": 3,
+      "transform_time": 103.07041501998901,
+      "validation_time": 199.2915871143341,
+      "quality_score": ";0.9;0.9;0.9",
+      "errors": "error_type: omission; field_path: portions; error_message: Ausgabemenge pro Person (ca. 680 g) aus dem Originaltext fehlt oder ist falsch codiert.error_type: omission; field_path: time; error_message: Gesamtdauer des Rezepts fehlt. Der Originaltext enthält Zeiten (z. B. 10-15 Minuten Garzeit nach Schritt 2, ca. 5 Minuten Garzeit nach Schritt 4).error_type: omission; field_path: ingredients; error_message: Bei Pfeffer, gemahlen; Cayennepfeffer; Jodsalz fehlen Mengenangaben in der Extraktion.",
+      "total_time": 302.3620021343231
+    },
+    "HUMAN": {
+      "input_tokens": 4378,
+      "output_tokens": 16920,
+      "total_cost": 0.006986900000000001,
+      "iterations": 3,
+      "transform_time": 108.34118103981018,
+      "feedback_time": 171.96267414093018,
+      "quality_score": ";0.9;0.9;0.9",
+      "errors": "",
+      "total_time": 280.30385518074036
+    }
+  }
+}

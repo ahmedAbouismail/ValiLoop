@@ -5,8 +5,8 @@
   "ingredients": [
     {
       "name": "Erbsen, frisch oder TK",
-      "quantity": "7",
-      "unit": "kg"
+      "quantity": "7000",
+      "unit": "g"
     },
     {
       "name": "Muskat, gemahlen",
@@ -30,8 +30,8 @@
     },
     {
       "name": "Milch (1,5 % Fett)",
-      "quantity": "1",
-      "unit": "l"
+      "quantity": "1000",
+      "unit": "ml"
     },
     {
       "name": "Margarine",
@@ -45,8 +45,8 @@
     },
     {
       "name": "Wasser / Trinkwasser",
-      "quantity": "14",
-      "unit": "l"
+      "quantity": "14000",
+      "unit": "ml"
     },
     {
       "name": "Suppengrün",

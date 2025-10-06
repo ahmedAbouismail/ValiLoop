@@ -1,0 +1,117 @@
+{
+  "name": "Mangold-Nudel-Auflauf",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Teigwaren/Nudeln, roh",
+      "quantity": "1",
+      "unit": "kg"
+    },
+    {
+      "name": "Karotten (frisch oder TK)",
+      "quantity": "1",
+      "unit": "kg"
+    },
+    {
+      "name": "Mangold (frisch, geputzt)",
+      "quantity": "1.6",
+      "unit": "kg"
+    },
+    {
+      "name": "Erbsen (grün, frisch oder TK)",
+      "quantity": "800",
+      "unit": "g"
+    },
+    {
+      "name": "Zwiebeln",
+      "quantity": "200",
+      "unit": "g"
+    },
+    {
+      "name": "Muskatnuss",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "30",
+      "unit": "g"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Pfeffer",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Vollei",
+      "quantity": "650",
+      "unit": "g"
+    },
+    {
+      "name": "Mozzarella (20 % Fett i. Tr.)",
+      "quantity": "300",
+      "unit": "g"
+    },
+    {
+      "name": "Milch (1,5 % Fett)",
+      "quantity": "750",
+      "unit": "ml"
+    },
+    {
+      "name": "Mehl",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Wasser",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Stärke",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Nudeln nach Packungsangabe bissfest kochen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Das Gemüse klein schneiden.",
+        "Beim Mangold können die Stiele und die Blätter verwendet werden.",
+        "Das Öl in der Pfanne erhitzen.",
+        "Die Zwiebeln mit den Möhren darin einige Minuten andünsten.",
+        "Anschließend die Mangoldstiele und -blätter hinzugeben.",
+        "Mit Salz, Pfeffer und Muskat würzen und noch ca. 3 Minuten garen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Für die Béchamelsoße das Öl erhitzen, mit dem Mehl anschwitzen und nach und nach unter Rühren Wasser und Milch hinzufügen.",
+        "Aufkochen und mit Salz, Pfeffer und Muskat abschmecken.",
+        "Wenn die Soße noch zu flüssig sein sollte, längere Zeit aufkochen oder Stärke mit kaltem Wasser anrühren und zu der Soße geben."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Nudeln und das Gemüse vermengen, in die Auflaufform geben und mit der Soße übergießen.",
+        "Mit geriebenem Mozzarella bestreuen.",
+        "Im Konvektomat etwa 30 Minuten backen."
+      ]
+    }
+  ]
+}

@@ -15,18 +15,18 @@
     },
     {
       "name": "Gemüsebrühe (Trockenprodukt)",
-      "quantity": "1",
-      "unit": "kg"
+      "quantity": "1000",
+      "unit": "g"
     },
     {
       "name": "Wasser/ Trinkwasser",
-      "quantity": "2",
-      "unit": "l"
+      "quantity": "20000",
+      "unit": "ml"
     },
     {
       "name": "Suppengrün",
-      "quantity": "2",
-      "unit": "kg"
+      "quantity": "2000",
+      "unit": "g"
     },
     {
       "name": "Pfeffer, gemahlen",

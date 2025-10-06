@@ -8,17 +8,17 @@ Falafel: ca. 120 g
 Tahini- Dip: ca. 80g
 
 Falafelteig
-Menge	    Zutat
-1000 g	    Kichererbsen, getrocknet
-120 g	    Zwiebeln, frisch oder TK, geschält
-4 Zehen	    Knoblauch, frisch
-9 Stiele    Petersilie, frisch oder TK
-2 Msp.	    Chilipulver
-2 TL	    Schwarzkümmel, gemahlen
-2 TL	    Koriander, getrocknet
-2 TL	    Natron
-2 TL	    Backpulver
-	    Jodsalz, Pfeffer
+Menge	Zutat
+1000 g	Kichererbsen, getrocknet
+120 g	Zwiebeln, frisch oder TK, geschält
+4 Zehen	Knoblauch, frisch
+9 Stiele	Petersilie, frisch oder TK
+2 Msp.	Chilipulver
+2 TL	Schwarzkümmel, gemahlen
+2 TL	Koriander, getrocknet
+2 TL	Natron
+2 TL	Backpulver
+	Jodsalz, Pfeffer
 
 Tahini-Dip
 Menge	Zutat
@@ -31,7 +31,7 @@ Menge	Zutat
 2 Msp.	Paprikapulver
 1 Prise	Kreuzkümmel, gemahlen
 20 ml	Granatapfelsirup
-	    Jodsalz, Pfeffer
+	Jodsalz, Pfeffer
 
 Zubereitung
 1. Kichererbsen über Nacht einweichen. Am nächsten Tag Zwiebeln und Knoblauch fein würfeln und mit den abgetropften Kichererbsen vermischen. Gehackte Petersilie, Gewürze, Salz, Natron und Backpulver hinzugeben und mit der Küchenmaschine fein pürieren. Anschließend mit Pfeffer abschmecken und aus der Masse mit einem Eisportionierer Bällchen formen.

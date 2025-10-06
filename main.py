@@ -59,7 +59,7 @@ def main():
                     "target_schema": recipe_schema,
                     "domain": "recipe",
                     "validation_mode": validation_mode,
-                    "max_iterations": 2
+                    "max_iterations": 3
                 }, config)
 
                 print(f"\n=== FINAL RESULT ({test_name}) ===")
@@ -78,7 +78,7 @@ def main():
 
 
             session_collector.export_to_sqlite("experiment_results.db")
-            session_collector.export_to_json("experiment_results.json")
+            session_collector.export_to_json(json_path= recipe_name + ".json")
 
             # Session Summary für aktuelles Rezept
             print(f"\n=== SESSION SUMMARY für {recipe_name} ===")
@@ -92,7 +92,7 @@ def main():
                 print(f"  Cost: ${auto['total_cost']:.4f}")
                 print(f"  Time: {total_time:.2f}s")
                 print(f"  Iterations: {auto['iterations']}")
-                print(f"  Quality: {auto['quality_score']:.3f}")
+                print(f"  Quality: {auto['quality_score']}")
 
             if summary['human']:
                 human = summary['human']
@@ -102,7 +102,7 @@ def main():
                 print(f"  Cost: ${human['total_cost']:.4f}")
                 print(f"  Time: {total_time:.2f}s")
                 print(f"  Iterations: {human['iterations']}")
-                print(f"  Quality: {human['quality_score']:.3f}")
+                print(f"  Quality: {human['quality_score']}")
 
     # Final Export und Analysis
     print(f"\n{'='*50}")

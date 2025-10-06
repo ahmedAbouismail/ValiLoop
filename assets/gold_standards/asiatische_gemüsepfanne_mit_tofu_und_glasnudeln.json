@@ -5,13 +5,13 @@
   "ingredients": [
     {
       "name": "Tofu",
-      "quantity": "8,5",
-      "unit": "kg"
+      "quantity": "8500",
+      "unit": "g"
     },
     {
       "name": "Frühlings-/Lauchzwiebeln, frisch",
-      "quantity": "3",
-      "unit": "kg"
+      "quantity": "3000",
+      "unit": "g"
     },
     {
       "name": "Tomatenmark",
@@ -25,38 +25,38 @@
     },
     {
       "name": "Zuckererbsenschoten, frisch oder TK",
-      "quantity": "4",
-      "unit": "kg"
+      "quantity": "4000",
+      "unit": "g"
     },
     {
       "name": "Champignons, frisch oder TK",
-      "quantity": "4",
-      "unit": "kg"
+      "quantity": "4000",
+      "unit": "g"
     },
     {
       "name": "Möhren, frisch oder TK",
-      "quantity": "4",
-      "unit": "kg"
+      "quantity": "4000",
+      "unit": "g"
     },
     {
       "name": "Sojasprossen, frisch",
-      "quantity": "4",
-      "unit": "kg"
+      "quantity": "4000",
+      "unit": "g"
     },
     {
       "name": "Paprika rot, frisch oder TK",
-      "quantity": "4",
-      "unit": "kg"
+      "quantity": "4000",
+      "unit": "g"
     },
     {
       "name": "Gemüsebrühe",
-      "quantity": "10",
-      "unit": "l"
+      "quantity": "10000",
+      "unit": "ml"
     },
     {
       "name": "Glasnudeln, Rohware",
-      "quantity": "6",
-      "unit": "kg"
+      "quantity": "6000",
+      "unit": "g"
     },
     {
       "name": "Maisstärke",

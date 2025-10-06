@@ -41,7 +41,7 @@ def human_feedback_node(state: AgentState) -> AgentState:
         feedback_type = "correction"
 
     # End node timing
-    session_collector.end_human_feedback_node()
+    session_collector.end_human_feedback_node(quality_score=quality_score)
 
     result_state = {
         **state,

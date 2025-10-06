@@ -1,0 +1,83 @@
+{
+  "name": "Afghanische Bulani",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Weizenmehl (Type 405)",
+      "quantity": "750",
+      "unit": "g"
+    },
+    {
+      "name": "Weizen-Vollkornmehl",
+      "quantity": "425",
+      "unit": "g"
+    },
+    {
+      "name": "Trockenhefe",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Mehl zum Ausrollen",
+      "quantity": "100",
+      "unit": "g"
+    },
+    {
+      "name": "Spinat",
+      "quantity": "1250",
+      "unit": "g"
+    },
+    {
+      "name": "Zwiebeln (frisch oder TK, geschält)",
+      "quantity": "400",
+      "unit": "g"
+    },
+    {
+      "name": "Knoblauch",
+      "quantity": "1",
+      "unit": "Zehe"
+    },
+    {
+      "name": "Rapsöl zum Braten",
+      "quantity": "50",
+      "unit": "ml"
+    },
+    {
+      "name": "Jodsalz",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Pfeffer",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Mehle, die Hefe und etwas Wasser zu einem Hefeteig kneten und etwa 20 Minuten bei Zimmertemperatur ruhen lassen. Den Teig anschließend in 10 gleichmäßig große Kugeln formen und diese nochmal 15 Minute ruhen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "In der Zwischenzeit den Spinat dämpfen und klein hacken. Zwiebeln und Knoblauch fein würfeln und mit dem Spinat mischen. Mit Salz und Pfeffer nach Geschmack würzen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Teigkugeln zu dünnen, runden Fladen ausrollen. Die Spinat-Zwiebel-Knoblauch-Mischung auf einer Seite der runden Fladen verteilen, dann zusammenklappen und die Ränder etwas festdrücken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Öl in einer Pfanne erhitzen und die halbrunden Teigtaschen nach und nach von beiden Seiten goldbraun braten."
+      ]
+    }
+  ]
+}

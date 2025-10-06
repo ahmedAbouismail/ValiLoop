@@ -1,0 +1,94 @@
+{
+  "name": "Chinesische Gemüsesuppe",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Tomatenwürfel, frisch oder TK",
+      "quantity": "1000",
+      "unit": "g"
+    },
+    {
+      "name": "Hühnerbrühe (gekörnt)",
+      "quantity": "1100",
+      "unit": "g"
+    },
+    {
+      "name": "Sojasoße, dunkel",
+      "quantity": "300",
+      "unit": "ml"
+    },
+    {
+      "name": "Champignons, frisch oder TK",
+      "quantity": "1000",
+      "unit": "g"
+    },
+    {
+      "name": "Knoblauch, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Zwiebeln, frisch oder TK, geschält",
+      "quantity": "1000",
+      "unit": "g"
+    },
+    {
+      "name": "Rapsöl",
+      "quantity": "100",
+      "unit": "ml"
+    },
+    {
+      "name": "Wasser/ Trinkwasser",
+      "quantity": "25000",
+      "unit": "ml"
+    },
+    {
+      "name": "Ingwer, frisch",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Cayennepfeffer",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Maisstärke",
+      "quantity": "1000",
+      "unit": "g"
+    },
+    {
+      "name": "Glasnudeln, Rohware",
+      "quantity": "70",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Zwiebeln und Tomaten in Würfel und Champignons in Scheiben schneiden.",
+        "Knoblauch hacken."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Öl erhitzen, Zwiebelwürfel und Knoblauch darin andünsten.",
+        "Champignonscheiben kurz mit andünsten.",
+        "Wasser, Brühe, Sojasoße und Gewürze dazugeben und aufkochen lassen.",
+        "Stärke anrühren und die Suppe damit abbinden."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Glasnudeln mit heißem Wasser übergießen und 10 Minuten ziehen lassen.",
+        "Abtropfen lassen, mit der Schere in Stücke schneiden.",
+        "Nudeln und Tomaten in die Brühe geben, 5 Minuten ziehen lassen (nicht mehr kochen).",
+        "Suppe abschmecken."
+      ]
+    }
+  ]
+}

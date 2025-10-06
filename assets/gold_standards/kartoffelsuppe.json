@@ -1,0 +1,99 @@
+{
+  "name": "Kartoffelsuppe",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Rapsöl",
+      "quantity": "200",
+      "unit": "ml"
+    },
+    {
+      "name": "Zwiebeln, frisch oder TK",
+      "quantity": "1500",
+      "unit": "g"
+    },
+    {
+      "name": "Knoblauch, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Suppengrün",
+      "quantity": "1200",
+      "unit": "g"
+    },
+    {
+      "name": "Kartoffeln, mehlig kochend, frisch, geschält",
+      "quantity": "10",
+      "unit": "kg"
+    },
+    {
+      "name": "Wasser/ Trinkwasser",
+      "quantity": "20",
+      "unit": "l"
+    },
+    {
+      "name": "Gemüsebrühe (Trockenprodukt)",
+      "quantity": "1",
+      "unit": "kg"
+    },
+    {
+      "name": "Majoran",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Milch (1,5 % Fett)",
+      "quantity": "1500",
+      "unit": "ml"
+    },
+    {
+      "name": "Kartoffeln, vorwiegend festkochend, frisch, geschält",
+      "quantity": "500",
+      "unit": "g"
+    },
+    {
+      "name": "Muskat, gemahlen",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Crème fraîche (30 % Fett)",
+      "quantity": "80",
+      "unit": "g"
+    },
+    {
+      "name": "Petersilie, frisch oder TK",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Zwiebeln, Kartoffeln und Suppengemüse schneiden.",
+        "Öl erhitzen.",
+        "Zwiebeln darin andünsten.",
+        "Knoblauch und Suppengemüse mitdünsten.",
+        "Kartoffeln, Wasser, Brühe und Majoran dazugeben und 20 Min. kochen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Milch hinzugeben und mit einem Pürierstab pürieren.",
+        "Gegarte Kartoffelwürfel unterrühren."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Mit Muskat, Salz und Pfeffer abschmecken.",
+        "Crème fraîche unter die Suppe ziehen.",
+        "Mit gehackter Petersilie servieren."
+      ]
+    }
+  ]
+}

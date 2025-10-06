@@ -1,0 +1,69 @@
+{
+  "name": "Amrumer Himmelreich",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Quark (< 10 % Fett i. Tr.)",
+      "quantity": "250",
+      "unit": "g"
+    },
+    {
+      "name": "Milch (1,5 % Fett)",
+      "quantity": "550",
+      "unit": "ml"
+    },
+    {
+      "name": "Vanillepuddingpulver",
+      "quantity": "40",
+      "unit": "g"
+    },
+    {
+      "name": "Zucker",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Schlagsahne (30 % Fett)",
+      "quantity": "120",
+      "unit": "ml"
+    },
+    {
+      "name": "Apfelmus",
+      "quantity": "500",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Aus Milch, Zucker und Puddingpulver einen Pudding zubereiten, portionieren und abkühlen lassen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Sahne steif schlagen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Abgekühlten Pudding und Quark miteinander verrühren, die Sahne vorsichtig unterheben."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Die Quark-Pudding-Creme portionieren."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Das Apfelmus auf der Quark-Pudding-Creme verteilen."
+      ]
+    }
+  ]
+}

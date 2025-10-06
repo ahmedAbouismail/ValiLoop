@@ -27,8 +27,8 @@ Menge	Zutat
 200 g	Maisstärke
 500 g	Zucker
 100 ml	Rapsöl
-	    Jodsalz
-	    Cayennepfeffer
+	Jodsalz
+	Cayennepfeffer
 
 Zubereitung
 1. Zwei Stunden vor der Zubereitung des Gerichts den Tofu marinieren. Eine Marinade Frühlingszwiebeln in Ringe schneiden und mit Sojasoße und Tomatenmark vermischen. Tofu in diese Marinade einlegen und gekühlt durchziehen lassen.

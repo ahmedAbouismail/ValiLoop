@@ -16,22 +16,22 @@ def json_transformer_node(state: AgentState) -> AgentState:
     schema_dict = state['target_schema']
     llm = ChatOpenAI(
         model="gpt-5-nano",
-        #temperature=0.0,
-        api_key="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"
+        temperature=0.0,
     ).with_structured_output(schema=schema_dict, include_raw=True)
     #llm = llm_manager.get_transform_llm(state["validation_mode"]).with_structured_output(schema=schema_dict, include_raw=True)
     # Build prompt
 
-    prompt = f"""
-    Konvertieren Sie den folgenden Text gemäß dem Schema in das JSON-Format.
-    
-    Text: {state['raw_text']}
-    Domain: {state['domain']}
-    """
+    if state['iteration_count'] == 0:
+        prompt = f"""
+        Konvertieren Sie den folgenden Text gemäß dem Schema in das JSON-Format.
+        
+        Text: {state['raw_text']}
+        Domain: {state['domain']}
+        """
 
     if state['validation_mode'].value == 'automatic' and state['validation_errors'] and state['iteration_count'] > 0:
-
-        prompt += f"\n\n=== WICHTIG: Beheben Sie diese spezifischen Fehler ===\n"
+        data = state['current_json_output']
+        prompt = (f""" Originaltext: {state['raw_text']}\n\n Zukorrigierende JSON: {json.dumps(data, indent=4, ensure_ascii=False)} \n\n===WICHTIG: Beheben Sie diese spezifischen Fehler ===\n""")
         ingredient_errors = [e for e in state['validation_errors'] if 'ingredients' in e.field_path]
         instruction_errors = [e for e in state['validation_errors'] if 'cooking_steps' in e.field_path]
         completeness_errors = [e for e in state['validation_errors'] if e.field_path in
@@ -63,7 +63,10 @@ def json_transformer_node(state: AgentState) -> AgentState:
         #         prompt += f"  → Korrigiere: {error.suggested_fix}\n"
 
     if state['validation_mode'].value == 'human' and state['iteration_count'] > 0:
-        prompt += f"\n\n=== FEEDBACK ===\n{state['human_feedback']}\n"
+        data = state['current_json_output']
+        prompt = (f""" Originaltext: {state['raw_text']} \n\n Zukorrigierende JSON: {json.dumps(data, indent=4, ensure_ascii=False)} \n\n ===WICHTIG: Beheben Sie diese spezifischen Fehler ===\n\n {state['human_feedback']}""")
+
+        #prompt += f"\n\n=== FEEDBACK ===\n{state['human_feedback']}\n"
 
     if state['domain'] == 'recipe':
         prompt += """

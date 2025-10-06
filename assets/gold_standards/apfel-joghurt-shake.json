@@ -1,0 +1,53 @@
+{
+  "name": "Apfel-Joghurt-Shake",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Apfel, frisch",
+      "quantity": "400",
+      "unit": "g"
+    },
+    {
+      "name": "Vanillemark",
+      "quantity": "1",
+      "unit": "g"
+    },
+    {
+      "name": "Naturjoghurt (1,5 % Fett)",
+      "quantity": "900",
+      "unit": "g"
+    },
+    {
+      "name": "Haferflocken, zart",
+      "quantity": "160",
+      "unit": "g"
+    },
+    {
+      "name": "Ahornsirup",
+      "quantity": "50",
+      "unit": "g"
+    },
+    {
+      "name": "Hagebuttenmark oder -marmelade",
+      "quantity": "60",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Apfel schälen und in Würfel schneiden.",
+        "Die küchenfertige Menge Apfel soll 40 g pro Portion betragen."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Joghurt, Ahornsirup, Apfelwürfel und Hagebuttenmark pürieren.",
+        "Zum Schluss mit Naturvanille und Haferflocken verfeinern."
+      ]
+    }
+  ]
+}

@@ -10,23 +10,23 @@ Menge	Zutat
 250 g	Emmentaler (40 % Fett i. Tr.)
 300 g	Paprika, gelb, frisch oder TK
 300 g	Mais/Zuckermais, frisch oder TK
-	    Basilikum, frisch oder TK
+	Basilikum, frisch oder TK
 300 g	Erbsen, frisch oder TK
-	    Schnittlauch, frisch oder TK
+	Schnittlauch, frisch oder TK
 300 g	Möhren, frisch oder TK
-	    Petersilie, frisch oder TK
+	Petersilie, frisch oder TK
 300 g	Paprika, rot, frisch oder TK
-	    Jodsalz
-	    Pfeffer, gemahlen
+	Jodsalz
+	Pfeffer, gemahlen
 
 Dressing
 Menge	Zutat
 125 ml	Essig
 125 ml	Wasser / Trinkwasser
-	    Jodsalz
-	    Pfeffer, gemahlen
-	    Paprikapulver, edelsüß
-	    Zucker
+	Jodsalz
+	Pfeffer, gemahlen
+	Paprikapulver, edelsüß
+	Zucker
 30 ml	Rapsöl
 
 Zubereitung

@@ -1,0 +1,58 @@
+{
+  "name": "Apfeldessert",
+  "portions": null,
+  "time": null,
+  "ingredients": [
+    {
+      "name": "Apfelsaft",
+      "quantity": "300",
+      "unit": "ml"
+    },
+    {
+      "name": "Zucker",
+      "quantity": "40",
+      "unit": "g"
+    },
+    {
+      "name": "Vanillezucker",
+      "quantity": "20",
+      "unit": "g"
+    },
+    {
+      "name": "Zitronensaft",
+      "quantity": "50",
+      "unit": "ml"
+    },
+    {
+      "name": "Apfel, frisch",
+      "quantity": "1000",
+      "unit": "g"
+    },
+    {
+      "name": "Maisstärke",
+      "quantity": "20",
+      "unit": "g"
+    }
+  ],
+  "cooking_steps": [
+    {
+      "title": null,
+      "sub_steps": [
+        "Äpfel in Stücke oder Scheiben schneiden."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Apfelsaft mit Zucker, Vanillezucker und Zitronensaft zum Kochen bringen.",
+        "Die Apfelstücke darin bissfest dünsten."
+      ]
+    },
+    {
+      "title": null,
+      "sub_steps": [
+        "Stärke mit etwas kaltem Wasser anrühren, das Apfeldessert damit abbinden."
+      ]
+    }
+  ]
+}

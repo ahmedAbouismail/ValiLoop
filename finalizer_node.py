@@ -7,10 +7,10 @@ def finalizer_node(state: AgentState) -> AgentState:
     success = quality_score > 0.8
 
     # Set final quality score in collector
-    session_collector.set_final_quality_score(
-        state["validation_mode"],
-        quality_score
-    )
+    # session_collector.set_final_quality_score(
+    #     state["validation_mode"],
+    #     quality_score
+    # )
 
     final_output = {
         "status": "success" if success else "partial_success",

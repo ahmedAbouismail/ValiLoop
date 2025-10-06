@@ -38,7 +38,8 @@ def automatic_validator_node(state: AgentState) -> AgentState:
         error_messages += "error_type: " + error.type + "; field_path: " + error.field_path + "; error_message: " + error.message + ""
 
     # Log to session collector
-    session_collector.end_validation_node(cost=total_validation_cost,
+    session_collector.end_validation_node( quality_score = quality_score,
+                                            cost=total_validation_cost,
                                           input_tokens=validation_input_tokens,
                                           output_tokens=validation_output_tokens,
                                           errors=error_messages)
