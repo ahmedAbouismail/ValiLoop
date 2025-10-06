@@ -19,7 +19,7 @@ def main():
 
         # Test both validation modes
         test_cases = [
-            ("automatic", ValidationMode.AUTOMATIC),
+            #("automatic", ValidationMode.AUTOMATIC),
             ("human", ValidationMode.HUMAN)
         ]
 
@@ -43,7 +43,7 @@ def main():
 
             # Eine Session pro Rezept starten
             session_id = str(uuid.uuid4())
-            session_collector.start_session(session_id, recipe_text)
+            session_collector.start_session(session_id, recipe_text, recipe_name)
 
             for test_name, validation_mode in test_cases:
                 print(f"\n{'='*50}")
@@ -78,31 +78,49 @@ def main():
 
 
             session_collector.export_to_sqlite("experiment_results.db")
-            session_collector.export_to_json(json_path= recipe_name + ".json")
+            session_collector.export_to_json(json_path= recipe_name + "_" + str(validation_mode.value) + ".json")
 
-            # Session Summary für aktuelles Rezept
-            print(f"\n=== SESSION SUMMARY für {recipe_name} ===")
-            summary = session_collector.get_summary()
+    # Session Summary für aktuelles Rezept
+    print(f"\n=== SESSION SUMMARY für {recipe_name} ===")
+    summary = session_collector.get_summary()
 
-            if summary['automatic']:
-                auto = summary['automatic']
-                total_time = auto['transform_time'] + auto['validation_time']
-                print(f"\nAUTOMATIC Mode:")
-                print(f"  Tokens: {auto['input_tokens']}/{auto['output_tokens']}")
-                print(f"  Cost: ${auto['total_cost']:.4f}")
-                print(f"  Time: {total_time:.2f}s")
-                print(f"  Iterations: {auto['iterations']}")
-                print(f"  Quality: {auto['quality_score']}")
+    if summary['automatic']:
+        auto = summary['automatic']
+        total_time = auto['transform_time'] + auto['validation_time']
 
-            if summary['human']:
-                human = summary['human']
-                total_time = human['transform_time'] + human['feedback_time']
-                print(f"\nHUMAN Mode:")
-                print(f"  Tokens: {human['input_tokens']}/{human['output_tokens']}")
-                print(f"  Cost: ${human['total_cost']:.4f}")
-                print(f"  Time: {total_time:.2f}s")
-                print(f"  Iterations: {human['iterations']}")
-                print(f"  Quality: {human['quality_score']}")
+        # Hole letzten F1-Score (letzte Iteration)
+        final_f1 = auto['overall_f1'][-1] if auto['overall_f1'] else 0.0
+
+        print(f"\nAUTOMATIC Mode:")
+        print(f"  Tokens: {auto['input_tokens']}/{auto['output_tokens']}")
+        print(f"  Cost: ${auto['total_cost']:.4f}")
+        print(f"  Time: {total_time:.2f}s")
+        print(f"  Iterations: {auto['iterations']}")
+        print(f"  Final F1 (Mikro): {final_f1:.4f}")
+
+        # Optional: Zeige Entwicklung über Iterationen
+        if len(auto['overall_f1']) > 1:
+            f1_scores = ', '.join([f"{x:.3f}" for x in auto['overall_f1']])
+            print(f"  F1 Evolution: [{f1_scores}]")
+
+    if summary['human']:
+        human = summary['human']
+        total_time = human['transform_time'] + human['feedback_time']
+
+        # Hole letzten F1-Score
+        final_f1 = human['overall_f1'][-1] if human['overall_f1'] else 0.0
+
+        print(f"\nHUMAN Mode:")
+        print(f"  Tokens: {human['input_tokens']}/{human['output_tokens']}")
+        print(f"  Cost: ${human['total_cost']:.4f}")
+        print(f"  Time: {total_time:.2f}s")
+        print(f"  Iterations: {human['iterations']}")
+        print(f"  Final F1 (Mikro): {final_f1:.4f}")
+
+        # Optional: Zeige Entwicklung über Iterationen
+        if len(human['overall_f1']) > 1:
+            f1_scores = ', '.join([f"{x:.3f}" for x in human['overall_f1']])
+            print(f"  F1 Evolution: [{f1_scores}]")
 
     # Final Export und Analysis
     print(f"\n{'='*50}")
@@ -124,7 +142,7 @@ def show_basic_analysis():
     cursor.execute("""
         SELECT validation_mode, 
                COUNT(*) as sessions,
-               AVG(quality_score) as avg_quality,
+               AVG(overall_f1) as avg_quality,
                AVG(total_time) as avg_time,
                SUM(total_cost) as total_cost,
                AVG(iterations) as avg_iterations
@@ -135,7 +153,7 @@ def show_basic_analysis():
     print("\n" + "="*60)
     print("SESSION ANALYSIS:")
     print("="*60)
-    print("Mode\t\tSessions\tAvg Quality\tAvg Time\tTotal Cost\tAvg Iter")
+    print("Mode\t\tSessions\tAvg Quality(F1)\tAvg Time\tTotal Cost\tAvg Iter")
     print("-" * 70)
 
     rows = cursor.fetchall()
@@ -151,29 +169,29 @@ def show_basic_analysis():
             iter_str = f"{iterations:.1f}" if iterations is not None else "N/A"
             print(f"{mode_str}\t{sessions}\t\t{quality_str}\t\t{time_str}\t\t{cost_str}\t\t{iter_str}")
 
-    # Session Details
-    print("\n" + "="*60)
-    print("SESSION DETAILS:")
-    print("="*60)
-
-    cursor.execute("""
-        SELECT session_id, validation_mode, quality_score, total_time, iterations
-        FROM session_results 
-        ORDER BY session_id, validation_mode
-    """)
-
-    details = cursor.fetchall()
-    if details:
-        print("Session\t\tMode\t\tQuality\tTime\tIterations")
-        print("-" * 60)
-        for row in details:
-            session_id, mode, quality, time_val, iterations = row
-            short_session = session_id[:8] if session_id else "unknown"
-            mode_str = mode or "unknown"
-            quality_str = f"{quality:.3f}" if quality is not None else "N/A"
-            time_str = f"{time_val:.1f}s" if time_val is not None else "N/A"
-            iter_str = str(iterations) if iterations is not None else "N/A"
-            print(f"{short_session}\t{mode_str}\t\t{quality_str}\t{time_str}\t{iter_str}")
+    # # Session Details
+    # print("\n" + "="*60)
+    # print("SESSION DETAILS:")
+    # print("="*60)
+    #
+    # cursor.execute("""
+    #     SELECT session_id, validation_mode, overall_f1, total_time, iterations
+    #     FROM session_results
+    #     ORDER BY session_id, validation_mode
+    # """)
+    #
+    # details = cursor.fetchall()
+    # if details:
+    #     print("Session\t\tMode\t\tQuality\tTime\tIterations")
+    #     print("-" * 60)
+    #     for row in details:
+    #         session_id, mode, quality, time_val, iterations = row
+    #         short_session = session_id[:8] if session_id else "unknown"
+    #         mode_str = mode or "unknown"
+    #         quality_str = f"{quality:.3f}" if quality is not None else "N/A"
+    #         time_str = f"{time_val:.1f}s" if time_val is not None else "N/A"
+    #         iter_str = str(iterations) if iterations is not None else "N/A"
+    #         print(f"{short_session}\t{mode_str}\t\t{quality_str}\t{time_str}\t{iter_str}")
 
     conn.close()
 

@@ -17,7 +17,7 @@ def human_feedback_node(state: AgentState) -> AgentState:
 
     try:
         result = _gui_feedback(state)
-        quality_score = validator.calculate_quality_score(
+        quality_metrics = validator.calculate_quality_score(
             state["current_json_output"],
             recipe_name=state.get("recipe_name", "unknown")
         )
@@ -25,7 +25,7 @@ def human_feedback_node(state: AgentState) -> AgentState:
         print(f"GUI feedback failed: {e}")
         print("Falling back to console input...")
         result = _console_feedback(state)
-        quality_score = validator.calculate_quality_score(
+        quality_metrics = validator.calculate_quality_score(
             state["current_json_output"],
             recipe_name=state.get("recipe_name", "unknown")
         )
@@ -34,24 +34,22 @@ def human_feedback_node(state: AgentState) -> AgentState:
     if result['action'] == 'approve':
         is_approved = True
         feedback = result.get('feedback', None)
-        feedback_type = "approval"
-    else:  # 'correct'
+    else:
         is_approved = False
         feedback = result.get('feedback', '')
-        feedback_type = "correction"
 
-    # End node timing
-    session_collector.end_human_feedback_node(quality_score=quality_score)
+    # End node timing mit allen Metriken
+    session_collector.end_human_feedback_node(quality_metrics=quality_metrics)
 
     result_state = {
         **state,
         "human_feedback": feedback,
-        "quality_score": quality_score,
+        "quality_score": quality_metrics.get('overall_f1', 0.0),  # Für Kompatibilität
+        "quality_metrics": quality_metrics,  # Neue vollständige Metriken
         "is_complete": is_approved
     }
 
     return result_state
-
 
 def _gui_feedback(state: AgentState) -> dict:
     print(f"\n=== LAUNCHING GUI FOR HUMAN REVIEW ===")
